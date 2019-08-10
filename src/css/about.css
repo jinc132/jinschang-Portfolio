@@ -1,0 +1,47 @@
+.bioList .portrait {
+    content: url("portrait.png");
+    border-radius: 5%;
+    width: 700px;
+    position: relative;
+    right: 2em;
+}
+
+.bioList {
+    font-size: 26px; 
+    font-family: 'Comfortaa', cursive; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.bioList .list {
+    position: relative;
+    top: 15vh;
+    left: 3em;
+}
+
+.bioList .list h1 {
+    padding-top: 5vh;
+    font-family: 'Righteous', cursive;
+}
+
+.bioList .list li {
+    font-family: 'Comfortaa', cursive; 
+    padding-top: 5vh;
+    position: relative;
+    left: 3vw;
+    width: 50vw;
+}
+
+.bioList .list p {
+    padding-top: 3vh;
+    width: 50vw;
+}
+
+.jinBio {
+    width: 75%;
+    position: relative;
+    left: 15%;
+    padding: 1em;
+    font-size: 36px;
+    font-family: 'Comfortaa', cursive;
+}
