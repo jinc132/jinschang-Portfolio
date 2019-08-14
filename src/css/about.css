@@ -1,7 +1,7 @@
 .bioList .portrait {
     content: url("portrait.png");
     border-radius: 5%;
-    width: 700px;
+    width: 400px;
     position: relative;
     right: 2em;
 }
