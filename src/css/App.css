@@ -10,8 +10,6 @@ html {
 }
 
 body {
-  font-family: "Cutive Mono", serif;
-  font-size: 1.2em;
   line-height: 1.6;
   background: #CCC;
   overflow-x: hidden;
@@ -103,6 +101,8 @@ label #menuLinks {
   transition: .25s 0s ease-in-out;
   list-style-type: none;
   font-size: 2vw;
+  font-family: "Cutive Mono", serif;
+  font-size: 2em;
 }
 
 label .nav-link {
