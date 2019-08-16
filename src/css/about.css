@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca");
 .bioList .portrait {
     content: url("portrait.png");
     border-radius: 5%;
@@ -16,13 +17,13 @@
 .bioList .list {
     position: relative;
     top: 15vh;
-    left: 3em;
+    left: 2em;
 }
 
 .bioList .list h1 {
     padding-top: 4vh;
-    font-family: 'Vollkorn', serif;
-    font-size: 26px;
+    font-family: 'Lexend Deca', serif;
+    font-size: 24px;
 }
 
 .bioList .list li {
@@ -31,13 +32,13 @@
     position: relative;
     left: 3vw;
     width: 50vw;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .bioList .list p {
     padding-top: 3vh;
     width: 50vw;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .jinBio {
@@ -45,6 +46,6 @@
     position: relative;
     left: 15%;
     padding: 1em;
-    font-size: 28px;
+    font-size: 16px;
     font-family: 'Amiri', serif;
 }
