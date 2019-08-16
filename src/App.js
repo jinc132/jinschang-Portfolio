@@ -43,7 +43,7 @@ class App extends Component {
         <span className="menu">
           <span className="hamburger" />
         </span>
-        <ul>
+        <ul id="menuLinks">
           {menuItems.map(menuItem => 
             <NavItem>
               <NavLink href={'/' + menuItem}>

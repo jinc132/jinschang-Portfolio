@@ -88,11 +88,11 @@ label input:checked + .menu .hamburger:before {
   top: 0;
 }
 
-label input:checked + .menu + ul {
+label input:checked + .menu + #menuLinks {
   opacity: 1;
 }
 
-label ul {
+label #menuLinks {
   z-index: 200;
   position: absolute;
   top: 50%;
