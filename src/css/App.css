@@ -35,8 +35,8 @@ label .hamburger {
   position: absolute;
   top: 140px;
   left: 40px;
-  width: 38px;
-  height: 4px;
+  width: 40px;
+  height: 3px;
   background: #000;
   display: block;
   -webkit-transform-origin: center;
