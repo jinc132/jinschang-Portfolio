@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink } from 'reactstrap';
+import { Route, Switch, Link } from 'react-router-dom';
+import { NavLink, NavItem } from 'reactstrap';
 import About from './pages/About';
 import Home from './pages/Home';
 import resume from './pages/jinresume.pdf';
@@ -41,24 +34,33 @@ class App extends Component {
       </div>
     )
 
+    let menu = (
+      <label>
+        <div className="nav-brand">
+          <NavLink className="brand" href="/"><img src={logo} alt="portfolio logo"/></NavLink>
+        </div>
+        <input type="checkbox" />
+        <span className="menu">
+          <span className="hamburger" />
+        </span>
+        <ul>
+          {menuItems.map(menuItem => 
+            <NavItem>
+              <NavLink href={'/' + menuItem}>
+               {menuItem}
+              </NavLink>
+            </NavItem>
+          )}
+          <NavItem>
+            <NavLink href={resume} target="_blank" >Resume</NavLink>
+          </NavItem>
+        </ul>
+      </label>
+      
+    )
     return (
       <div>
-        <Navbar color="dark" light expand="md">
-          <NavbarBrand href="/"><img src={logo} alt="portfolio logo" style={{ width: '3em'}}/></NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              {menuItems.map(menuItem => 
-                <NavItem> 
-                  <NavLink href={'/' + menuItem}>{menuItem}</NavLink>
-                </NavItem>
-              )}
-              <NavItem>
-                <NavLink href={resume} target="_blank" >Resume</NavLink>
-                </NavItem>
-              </Nav>
-          </Collapse>
-        </Navbar>  
+        {menu}  
         <Switch>
           <App/>
         </Switch>
