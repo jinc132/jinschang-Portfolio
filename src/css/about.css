@@ -21,7 +21,7 @@
 .bioList .list h1 {
     padding-top: 4vh;
     font-family: 'Lexend Deca', serif;
-    font-size: 28px;
+    font-size: 33px;
 }
 
 .bioList .list li {
@@ -30,22 +30,22 @@
     position: relative;
     left: 3vw;
     width: 50vw;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .bioList .list p {
     padding-top: 3vh;
     width: 50vw;
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Libre Caslon Text', serif;
     width: 880px;
 }
 
 .jinBio {
-    width: 75%;
+    width: 55%;
     position: relative;
-    left: 15%;
+    left: 25%;
     padding: 1em;
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Libre Caslon Text', serif;
 }
