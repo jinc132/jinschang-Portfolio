@@ -2,14 +2,14 @@
 
 #navbar li {
     list-style-type: none;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Assistant', sans-serif;
 }
 
 #navbar li .nav-link:hover {
     color: rgb(236, 155, 89); 
-    border-bottom: 2px double #000;
-    padding-bottom: 3px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
 }
 
 #navbar li .nav-link {
@@ -19,17 +19,18 @@
 
 #navbar .work, .personal {
     display: flex;
-    padding-top: 1.5em;
+    justify-content: space-between;
+    padding-top: 2em;
 }
 
 #navbar .work {
     position: relative;
-    right:25%;
+    right:5%;
 }
 
 #navbar .personal {
     position: relative;
-    left: 22%;
+    left: 5%;
 }
 
 #navbar {
