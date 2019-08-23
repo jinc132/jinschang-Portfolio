@@ -4,7 +4,6 @@ import { NavLink, NavItem } from 'reactstrap';
 import About from './pages/About';
 import Home from './pages/Home';
 import resume from './pages/jinresume.pdf';
-import logo from './css/logo.png';
 import './css/App.css';
 
 class App extends Component {
@@ -30,7 +29,7 @@ class App extends Component {
             </NavItem>
           </div>
           <div className="nav-brand">
-            <NavLink className="brand" href="/"><img src={logo} alt="portfolio logo"/></NavLink>
+            <NavLink className="brand" href="/">Jin Chang</NavLink>
           </div>
           <div className="personal">
             <NavItem>

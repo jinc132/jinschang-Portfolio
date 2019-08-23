@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Assistant|Reem+Kufi&display=swap');
 
 #navbar li {
     list-style-type: none;
@@ -12,7 +12,7 @@
     padding-bottom: 4px;
 }
 
-#navbar li .nav-link {
+#navbar li .nav-link, .nav-brand .nav-link {
     text-decoration: none;
     color: black;
 }
@@ -39,5 +39,11 @@
 }
 
 #navbar .nav-brand {
-    padding-top: 1.5em;
+    padding-top: 1em;
+    font-size: 28px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+#navbar .nav-brand .nav-link {
+    text-transform: uppercase; 
 }
