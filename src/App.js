@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { NavLink, NavItem } from 'reactstrap';
 import About from './pages/About';
 import Home from './pages/Home';
@@ -7,23 +7,7 @@ import resume from './pages/jinresume.pdf';
 import logo from './css/logo.png';
 import './css/App.css';
 
-const menuItems = [
-  'Home',
-  'About',
-  'Projects'
-];
 class App extends Component {
-  constructor(props) {
-    super();
-    this.state = {
-      isOpen: false
-    }
-    this.toggle = this.toggle.bind(this);
-  }
-  
-  toggle() {
-    this.setState({ isOpen: !this.state.isOpen });
-  }
   render() {
     const App = () => (
       <div>
@@ -35,28 +19,29 @@ class App extends Component {
     )
 
     let menu = (
-      <label>
-        <div className="nav-brand">
-          <NavLink className="brand" href="/"><img src={logo} alt="portfolio logo"/></NavLink>
-        </div>
-        <input type="checkbox" />
-        <span className="menu">
-          <span className="hamburger" />
-        </span>
-        <ul id="menuLinks">
-          {menuItems.map(menuItem => 
+      <div className="navi">
+        <ul id="navbar">
+          <div className="work">
             <NavItem>
-              <NavLink href={'/' + menuItem}>
-               {menuItem}
-              </NavLink>
+              <NavLink href="/Projects">Projects</NavLink>
             </NavItem>
-          )}
-          <NavItem>
-            <NavLink href={resume} target="_blank" >Resume</NavLink>
-          </NavItem>
+            <NavItem>
+              <NavLink href={resume} target="_blank" >Resume</NavLink>
+            </NavItem>
+          </div>
+          <div className="nav-brand">
+            <NavLink className="brand" href="/"><img src={logo} alt="portfolio logo"/></NavLink>
+          </div>
+          <div className="personal">
+            <NavItem>
+              <NavLink href="/About">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="mailto:Jinc132@gmail.com">Contact</NavLink>
+            </NavItem>
+          </div>
         </ul>
-      </label>
-      
+      </div>
     )
     return (
       <div>
