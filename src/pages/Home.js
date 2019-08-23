@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
+import '../css/home.css';
 
 class Home extends Component {
   render() {
     return (
-    <div className="App">
-      <h1>Project Home</h1>
-      <Link to={'/About'}>
-        <button variant="raised">
-            About
-        </button>
-      </Link>
+    <div className="intro">
+      <h1>Hey!</h1>
+      <p>I'm Jin, an aspiring Software Engineer, passionate learner, and major foodie based in Seattle, WA.</p>
     </div>
     );
   }

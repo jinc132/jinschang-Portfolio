@@ -4,8 +4,6 @@
     list-style-type: none;
     font-size: 24px;
     font-family: 'Assistant', sans-serif;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
 }
 
 #navbar li .nav-link:hover {
@@ -26,12 +24,12 @@
 
 #navbar .work {
     position: relative;
-    right:24%;
+    right:25%;
 }
 
 #navbar .personal {
     position: relative;
-    left: 20%;
+    left: 22%;
 }
 
 #navbar {
