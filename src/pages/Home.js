@@ -6,8 +6,7 @@ class Home extends Component {
   render() {
     return (
     <div className="intro">
-      <h1>Hey!</h1>
-      <p>I'm Jin, an aspiring Software Engineer, passionate learner, and major foodie based in Seattle, WA.</p>
+      <h1>Hey! I'm Jin, an aspiring Software Engineer, passionate learner, and major foodie based in Seattle, WA.</h1>
     </div>
     );
   }
