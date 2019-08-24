@@ -7,6 +7,16 @@ import resume from './pages/jinresume.pdf';
 import './css/App.css';
 
 class App extends Component {
+  handleSelected(url) {
+    // reset all the menu items
+    let elems = document.querySelectorAll("#navbar .nav-item .nav-link");
+    for (let index = 0; index < elems.length; index++) {
+      if (elems[index].innerHTML === url) {
+        elems[index].classList.add('active');
+      }
+    }
+  }
+
   render() {
     const App = () => (
       <div>
@@ -21,10 +31,10 @@ class App extends Component {
       <div className="navi">
         <ul id="navbar">
           <div className="work">
-            <NavItem>
+            <NavItem onClick={this.handleSelected("Projects")}>
               <NavLink href="/Projects">Projects</NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem onClick={this.handleSelected("Resume")}>
               <NavLink href={resume} target="_blank" >Resume</NavLink>
             </NavItem>
           </div>
@@ -32,10 +42,10 @@ class App extends Component {
             <NavLink className="brand" href="/">Jin Chang</NavLink>
           </div>
           <div className="personal">
-            <NavItem>
+            <NavItem onClick={this.handleSelected("About")}>
               <NavLink href="/About">About</NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem onClick={this.handleSelected("Contact")}>
               <NavLink href="mailto:Jinc132@gmail.com">Contact</NavLink>
             </NavItem>
           </div>

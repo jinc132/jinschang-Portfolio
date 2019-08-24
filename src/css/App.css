@@ -6,7 +6,7 @@
     font-family: 'Assistant', sans-serif;
 }
 
-#navbar li .nav-link:hover{
+#navbar li .nav-link:hover, .active{
     color: #000; 
     border-bottom: 2px solid #000;
     padding-bottom: 4px;
@@ -21,16 +21,9 @@
     display: flex;
     justify-content: space-between;
     padding-top: 2em;
-}
-
-#navbar .work {
-    position: relative;
-    right:5%;
-}
-
-#navbar .personal {
-    position: relative;
-    left: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
 }
 
 #navbar {
@@ -42,6 +35,8 @@
     padding-top: 1em;
     font-size: 28px;
     font-family: 'Reem Kufi', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #navbar .nav-brand .nav-link {
