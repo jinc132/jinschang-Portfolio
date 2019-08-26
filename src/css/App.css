@@ -21,14 +21,23 @@
     display: flex;
     justify-content: space-between;
     padding-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
     width: 15%;
+}
+
+#navbar .work {
+    margin-left: 216px;
+    margin-right: 88px;
+}
+
+#navbar .personal {
+    margin-left: 88px;
+    margin-right: 216px;
 }
 
 #navbar {
     justify-content: center;
     display: flex;
+    padding: 0 0 0 0;
 }
 
 #navbar .nav-brand {
