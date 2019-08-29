@@ -8,6 +8,37 @@
 .intro {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 4em;
-    width: 50%;
+    padding-top: 5em;
+    width: 55%;
+    text-align: center;
+}
+
+.projects {
+    padding-top: 10em;
+    margin-left: 100px;
+}
+
+#project-image {
+    min-height: 20px;
+    min-width: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4vw;
+    right: 4vw;
+    bottom: 4vw;
+    left: 4vw; 
+    width: calc(50% - 8vw);
+}
+
+.index-item-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 12vw;
+    right: 11vw;
+    top: 19vw;
+    bottom: 19vw;
+    margin: auto;
+    opacity: 1;
 }
