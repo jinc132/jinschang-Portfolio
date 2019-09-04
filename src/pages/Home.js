@@ -25,7 +25,7 @@ class Home extends Component {
             </div>
             <div className="proj">
               <Link className="item-link" href="https://github.com/jinc132/CeliacRecipes">
-                <figure className="item-image-wrapper">
+                <figure className="item-image-wrapper" style={{backgroundColor:'white'}}>
                   <img id ="project-image" src={span} alt="SPAN logo"></img>
                 </figure>
               </Link>

@@ -14,8 +14,7 @@
 }
 
 .projects {
-    padding-top: 10em;
-    margin-left: 110px;
+    margin: 10em 110px 0 110px;
     display: block;
 }
 
@@ -35,5 +34,13 @@
 
 .proj {
     align-items: center;
-    width: 45vw;
+    width: 43vw;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 25vw;
 }
