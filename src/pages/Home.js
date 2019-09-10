@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import icebreaker from '../css/img/diveIn.png';
 import span from '../css/img/SPAN.png';
+import celiac from '../css/img/Celiac.png';
 import '../css/home.css';
 
 class Home extends Component {
@@ -12,7 +13,7 @@ class Home extends Component {
           <h1>Hey! I'm Jin, an aspiring Software Engineer, passionate learner, and a major foodie based in Seattle, WA.</h1>
         </div>
         <div className="projects">
-          <div className="row">
+          <div className="double-item-row">
             <div className="proj">
               <Link className="item-link" href="https://github.com/jinc132/CeliacRecipes" style={{backgroundColor:'#87C0CD'}}>
                 <figure className="item-image-wrapper">
@@ -31,6 +32,18 @@ class Home extends Component {
               </Link>
               <div className="index-item-text-wrapper">
                 <h2>Statewide Poverty Action Network</h2>
+              </div>
+            </div>
+          </div>
+          <div className="single-item-row">
+            <div className="proj">
+              <Link className="item-link" href="https://github.com/jinc132/CeliacRecipes">
+                <figure className="item-image-wrapper" style={{backgroundColor:'aliceblue'}}>
+                  <img id ="project-image" src={celiac} alt="Celiac logo"></img>
+                </figure>
+              </Link>
+              <div className="index-item-text-wrapper">
+                <h2>Celiac Recipe Analysis</h2>
               </div>
             </div>
           </div>
