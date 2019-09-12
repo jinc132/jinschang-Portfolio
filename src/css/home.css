@@ -54,9 +54,9 @@ figure {
 
 .double-item-row .proj-image {
     position: relative;
-    left: 17vw;
-    right: 17vw;
-    top: 5vh;
+    left: 13vw;
+    right: 13vw;
+    top: 2vh;
 }
 
 .single-item-row .proj-image {
@@ -74,7 +74,7 @@ figure {
 
 .double-item-row .hover-overlay {
     position: relative;
-    right: 14vw;
+    right: 12vw;
 }
 
 .single-item-row .hover-overlay {
@@ -114,5 +114,5 @@ figure {
 #celiac {
     background-image: url("img/Celiac.png");
     width: 20vw;
-    height: 35vh;
+    height: 25vh;
 }
