@@ -18,7 +18,7 @@ class Home extends Component {
                 </div>
               </div>
             </Link>
-            <Link className="item-link" href="https://github.com/jinc132/CeliacRecipes" style={{backgroundColor:'white'}}>
+            <Link className="item-link" href="https://github.com/jinc132/CeliacRecipes" style={{backgroundColor:'#fff6f2'}}>
               <div id="span" className="proj-image">
                 <div className="hover-overlay">
                   <h2>Statewide Poverty Action Network</h2>

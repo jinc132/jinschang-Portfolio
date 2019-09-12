@@ -32,7 +32,7 @@ figure {
 }
 
 .double-item-row .item-link {
-    width: 46vw;
+    width: 43vw;
     height: 30vh;
 }
 
@@ -54,8 +54,8 @@ figure {
 
 .double-item-row .proj-image {
     position: relative;
-    left: 13vw;
-    right: 13vw;
+    left: 14vw;
+    right: 14vw;
     top: 2vh;
 }
 
@@ -74,7 +74,7 @@ figure {
 
 .double-item-row .hover-overlay {
     position: relative;
-    right: 12vw;
+    right: 14vw;
 }
 
 .single-item-row .hover-overlay {
