@@ -37,11 +37,11 @@ figure {
 }
 
 .single-item-row .hover-overlay {
-    width: 88.4vw;
+    width: 85vw;
 } 
 
 .double-item-row .hover-overlay {
-    width: 44.1vw;
+    width: 42.5vw;
 }
 
 .item-link {
@@ -69,17 +69,17 @@ figure {
 .hover-overlay {
     height: 30vh;
     position: relative;
-    bottom: 5vh;
+    bottom: 2vh;
 }
 
 .double-item-row .hover-overlay {
     position: relative;
-    right: 17vw;
+    right: 14vw;
 }
 
 .single-item-row .hover-overlay {
     position: relative;
-    right: 38vw;
+    right: 36.4vw;
     bottom: 6vh;
 }
 
@@ -101,18 +101,18 @@ figure {
 
 #icebreaker {
     background-image: url("img/diveIn.png");
-    width: 10vw;
-    height: 25vh;
+    width: 15vw;
+    height: 35vh;
 }
 
 #span {
     background-image: url("img/SPAN.png");
-    width: 15vw;
-    height: 25vh;
+    width: 20vw;
+    height: 40vh;
 }
 
 #celiac {
     background-image: url("img/Celiac.png");
-    width: 15vw;
-    height: 25vh;
+    width: 20vw;
+    height: 35vh;
 }
