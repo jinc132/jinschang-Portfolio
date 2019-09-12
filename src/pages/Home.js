@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import icebreaker from '../css/img/diveIn.png';
-import span from '../css/img/SPAN.png';
-import celiac from '../css/img/Celiac.png';
 import '../css/home.css';
 
 class Home extends Component {
@@ -14,38 +11,29 @@ class Home extends Component {
         </div>
         <div className="projects">
           <div className="double-item-row">
-            <div className="proj">
-              <Link className="item-link" href="https://github.com/jinc132/CeliacRecipes" style={{backgroundColor:'#87C0CD'}}>
-                <figure className="item-image-wrapper">
-                  <img id ="project-image" src={icebreaker} alt="icebreaker logo"></img>
-                </figure>
-              </Link>
-              <div className="index-item-text-wrapper">
-                <h2>Icebreaker Game Application</h2>
+            <Link className="item-link" href="https://github.com/jinc132/CeliacRecipes" style={{backgroundColor:'#87C0CD'}}>
+              <div id="icebreaker" className="proj-image">
+                <div className="hover-overlay">
+                  <h2>Icebreaker</h2>
+                </div>
               </div>
-            </div>
-            <div className="proj">
-              <Link className="item-link" href="https://github.com/jinc132/CeliacRecipes">
-                <figure className="item-image-wrapper" style={{backgroundColor:'white'}}>
-                  <img id ="project-image" src={span} alt="SPAN logo"></img>
-                </figure>
-              </Link>
-              <div className="index-item-text-wrapper">
-                <h2>Statewide Poverty Action Network</h2>
+            </Link>
+            <Link className="item-link" href="https://github.com/jinc132/CeliacRecipes" style={{backgroundColor:'white'}}>
+              <div id="span" className="proj-image">
+                <div className="hover-overlay">
+                  <h2>Statewide Poverty Action Network</h2>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="single-item-row">
-            <div className="proj">
-              <Link className="item-link" href="https://github.com/jinc132/CeliacRecipes">
-                <figure className="item-image-wrapper" style={{backgroundColor:'aliceblue'}}>
-                  <img id ="project-image" src={celiac} alt="Celiac logo"></img>
-                </figure>
+            <Link className="item-link" href="https://github.com/jinc132/CeliacRecipes" style={{backgroundColor:'white'}}>
+                <div id="celiac" className="proj-image">
+                  <div className="hover-overlay">
+                    <h2>Celiac Recipes</h2>
+                  </div>
+                </div>
               </Link>
-              <div className="index-item-text-wrapper">
-                <h2>Celiac Recipe Analysis</h2>
-              </div>
-            </div>
           </div>
         </div>
       </div>
