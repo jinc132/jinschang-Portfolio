@@ -116,3 +116,15 @@ figure {
     width: 20vw;
     height: 25vh;
 }
+
+#movieApp {
+    background-image: url("img/movieRate.png");
+    width: 13vw;
+    height: 28vh;
+}
+
+#usexports {
+    background-image: url("img/exports.png");
+    width: 15vw;
+    height: 24vh;
+}
