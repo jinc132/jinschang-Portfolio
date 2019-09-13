@@ -22,7 +22,7 @@ class App extends Component {
       <div>
         <Switch>
           <Route exact path='/' component={Home}/>
-          <Route path='/About' component={About}/>
+          <Route path='/About' component={About} />
         </Switch>
       </div>
     )
@@ -32,7 +32,7 @@ class App extends Component {
         <ul id="navbar">
           <div className="work">
             <NavItem onClick={this.handleSelected("Projects")}>
-              <NavLink href="/Projects">Projects</NavLink>
+              <NavLink href="#projects">Projects</NavLink>
             </NavItem>
             <NavItem onClick={this.handleSelected("Resume")}>
               <NavLink href={resume} target="_blank" >Resume</NavLink>

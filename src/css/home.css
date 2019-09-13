@@ -16,6 +16,7 @@
 .projects {
     margin: 10em 110px 0 110px;
     display: block;
+    padding-bottom: 5vh;
 }
 
 figure {
@@ -119,12 +120,12 @@ figure {
 
 #movieApp {
     background-image: url("img/movieRate.png");
-    width: 13vw;
+    width: 15vw;
     height: 28vh;
 }
 
 #usexports {
     background-image: url("img/exports.png");
-    width: 15vw;
+    width: 20vw;
     height: 24vh;
 }

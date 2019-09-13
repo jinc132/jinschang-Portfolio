@@ -9,7 +9,7 @@ class Home extends Component {
         <div className="intro">
           <h1>Hey! I'm Jin, an aspiring Software Engineer, passionate learner, and a major foodie based in Seattle, WA.</h1>
         </div>
-        <div className="projects">
+        <div className="projects" id="projects">
           <div className="double-item-row">
             <Link className="item-link" href="https://github.com/info442-sp19-undefined/hw7" style={{backgroundColor:'#87C0CD'}}>
               <div id="icebreaker" className="proj-image">
