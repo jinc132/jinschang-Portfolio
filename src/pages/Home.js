@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/home.css';
-
+import github from '../css/img/github.png';
+import email from '../css/img/email.png';
+import linkedin from '../css/img/linkedin.png';
 class Home extends Component {
   render() {
     return (
@@ -51,6 +53,17 @@ class Home extends Component {
               </div>
             </Link>
           </div>
+        </div>
+        <div className="social-area">
+          <Link href="mailto:Jinc132@gmail.com">
+            <img alt="email" src={email} className="social-media"/>
+          </Link>
+          <Link href="https://github.com/jinc132">
+            <img alt="github" src={github} className="social-media"/>
+          </Link>
+          <Link href="https://github.com/jinc132">
+            <img alt="linkedin" src={linkedin} className="social-media"/>
+          </Link>
         </div>
       </div>
     );
