@@ -24,14 +24,14 @@
     line-height: 1.5;
 }
 
-.jinBio h1 {
+.jinBio h2 {
     text-align: center;
     line-height: 2.5;
     font-family: 'Unica one', cursive;
 }
 
 .jinBio p {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .email-container {

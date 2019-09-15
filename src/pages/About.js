@@ -14,7 +14,7 @@ class About extends Component {
                     <img src={picture} alt='Jin'/>
                 </div>
                 <div className="jinBio">
-                    <h1>Who is Jin?</h1>
+                    <h2>Who is Jin?</h2>
                     <p>
                         I am recent graduate from <a href="https://artsci.washington.edu/" rel="noopener noreferrer" target="_blank">University of Washington College of Arts and Sciences</a>.
                         I received my bachelor's degree in <a href="https://geography.washington.edu/" rel="noopener noreferrer" target="_blank">Geographic Information Systems</a> and minored in <a href="https://ischool.uw.edu/programs/informatics" rel="noopener noreferrer" target="_blank">Informatics</a>.
@@ -24,7 +24,7 @@ class About extends Component {
                 <div className='email-wrapper'>
                     <div className="email-container">
                         <a href="mailto:Jinc132@gmail.com">
-                            <h4>Let's Talk</h4>
+                            Let's Talk
                         </a>
                     </div>
                 </div>
