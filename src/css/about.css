@@ -51,12 +51,13 @@
     background-color: black;
 }
 
-.email-container h4:hover {
+.email-container a:hover {
     color: white;
 }
 
-.email-container h4 {
+.email-container a {
     text-align: center;
+    font-size: 20px;
     padding-top: .3em;
     color: black;
 }
