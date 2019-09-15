@@ -14,12 +14,13 @@ class About extends Component {
                     <img src={picture} alt='Jin'/>
                 </div>
                 <div className="jinBio">
-                    <h2>Who is Jin?</h2>
-                    <p>
-                        I am recent graduate from <a href="https://artsci.washington.edu/" rel="noopener noreferrer" target="_blank">University of Washington College of Arts and Sciences</a>.
-                        I received my bachelor's degree in <a href="https://geography.washington.edu/" rel="noopener noreferrer" target="_blank">Geographic Information Systems</a> and minored in <a href="https://ischool.uw.edu/programs/informatics" rel="noopener noreferrer" target="_blank">Informatics</a>.
-                            
-                    </p>
+                    <div className="about-info">
+                        <h2>Who is Jin?</h2>
+                        <p>
+                            I am recent graduate from <a href="https://artsci.washington.edu/" rel="noopener noreferrer" target="_blank">University of Washington College of Arts and Sciences</a>.
+                            I received my bachelor's degree in <a href="https://geography.washington.edu/" rel="noopener noreferrer" target="_blank">Geographic Information Systems</a> and minored in <a href="https://ischool.uw.edu/programs/informatics" rel="noopener noreferrer" target="_blank">Informatics</a>.
+                        </p>
+                    </div>
                 </div>
                 <div className='email-wrapper'>
                     <div className="email-container">
