@@ -18,8 +18,8 @@
 
 .jinBio {
     padding: 5em;
-    width: 40vw;
-    margin-left: 30%;
+    width: 55vw;
+    margin-left: 21.5%;
     font-family: 'Josefin Slab', serif;
     line-height: 1.5;
 }
@@ -28,4 +28,39 @@
     text-align: center;
     line-height: 2.5;
     font-family: 'Unica one', cursive;
+}
+
+.jinBio p {
+    font-size: 24px;
+}
+
+.email-container {
+    border: 2px solid black;
+    border-radius: 4em;
+    font-family: 'Unica one', cursive;
+    width: 180px;
+    position: relative;
+    left: 43%;
+}
+
+.email-container a:hover {
+    text-decoration: none;
+}
+
+.email-container:hover {
+    background-color: black;
+}
+
+.email-container h4:hover {
+    color: white;
+}
+
+.email-container h4 {
+    text-align: center;
+    padding-top: .3em;
+    color: black;
+}
+
+.email-wrapper {
+    padding: 5em;
 }
