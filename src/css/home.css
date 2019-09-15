@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
 
 .intro h1 {
     font-size: 32px;
-    font-family: 'Lalezar', cursive;
+    font-family: 'Josefin Slab', serif;
+    line-height: 1.5;
 }
 
 .intro {
@@ -83,7 +84,6 @@ figure {
     right: 36.4vw;
     bottom: 6vh;
 }
-
 .hover-overlay:hover {
     background-color: rgba(0, 0, 0, 0.308);
 }
@@ -98,6 +98,7 @@ figure {
     position: relative;
     top: 10vh;
     color: whitesmoke;
+    font-family: 'Josefin Slab', serif;
 }
 
 #icebreaker {
