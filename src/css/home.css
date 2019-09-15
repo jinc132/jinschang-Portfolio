@@ -131,7 +131,7 @@ figure {
 }
 
 .social-container {
-    justify-content: center;
+    text-align:center;
 }
 
 .social-container .social-area .social-media {
