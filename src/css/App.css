@@ -6,7 +6,7 @@
     font-family: 'Unica One', cursive;
 }
 
-#navbar li .nav-link:hover, .active{
+#navbar li .nav-link:hover, .active {
     color: #000; 
     border-bottom: 2px solid #000;
     padding-bottom: 4px;
