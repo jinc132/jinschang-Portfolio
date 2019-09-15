@@ -38,9 +38,9 @@
     border: 2px solid black;
     border-radius: 4em;
     font-family: 'Unica one', cursive;
-    width: 180px;
+    width: 120px;
     position: relative;
-    left: 41%;
+    left: 43%;
 }
 
 .email-container a:hover {
