@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
 
 .intro h1 {
-    font-size: 39px;
+    font-size: 32px;
     font-family: 'Josefin Slab', serif;
     line-height: 2;
 }
@@ -131,11 +131,35 @@ figure {
     height: 24vh;
 }
 
-.social-container {
-    text-align:center;
+.social-area {
+    display: flex;
+    position: relative;
+    left: 40%;
+    right: 40%;
 }
 
-.social-container .social-area .social-media {
-    width: 80px;
+.social-area a {
     padding: 1em;
+}
+
+.social-area .circle {
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.social-area #social-media {
+    padding: .5em;
+    font-size: 28px;
+    color: black;
+}
+
+.social-area #social-media:hover {
+    color: white;
+}
+
+.social-area .circle:hover {
+    background-color: black;
 }
