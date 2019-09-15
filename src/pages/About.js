@@ -1,13 +1,19 @@
 import React, { Component } from 'react'; 
 import { Link } from 'react-router-dom';
 import '../css/about.css';
-
+import picture from '../css/img/jinPicture.png';
 class About extends Component {
     render() {
         return (
             <div>
-                <hr className="hr-text" data-content="Nice to meet you!"></hr>
+                <div className="greeting">
+                    <h1>Nice to meet you!</h1>
+                </div>
+                <div className='personal-pic-wrapper'>
+                    <img src={picture} alt='Jin'/>
+                </div>
                 <div className="jinBio">
+                    <h1>Who is Jin?</h1>
                     <p>
                         My name is Jin Chang, a recent graduate from <a href="https://artsci.washington.edu/" rel="noopener noreferrer" target="_blank">University of Washington College of Arts and Sciences</a>.
                         I received my bachelor's degree in <a href="https://geography.washington.edu/" rel="noopener noreferrer" target="_blank">Geography</a> and minored in <a href="https://ischool.uw.edu/programs/informatics" rel="noopener noreferrer" target="_blank">Informatics</a>.

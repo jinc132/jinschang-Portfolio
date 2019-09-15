@@ -85,7 +85,7 @@ figure {
     bottom: 6vh;
 }
 .hover-overlay:hover {
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.685);
 }
 
 .hover-overlay:hover h2 {
@@ -96,7 +96,7 @@ figure {
     visibility: hidden;
     text-align: center;
     position: relative;
-    top: 10vh;
+    top: 13vh;
     color: whitesmoke;
     font-family: 'Josefin Slab', serif;
 }

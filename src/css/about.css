@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Unica+One&display=swap');
+
+.personal-pic-wrapper {
+    background-color: rgba(226, 131, 42, 0.733);
+}
+
+.personal-pic-wrapper img {
+    position: relative;
+    left: 45%;
+}
+
+.greeting {
+    text-align: center;
+    padding: 5vh;
+    line-height: 2;
+    font-family: 'Josefin Slab', serif;
+}
+
+.jinBio {
+    padding: 5em;
+    width: 40vw;
+    margin-left: 30%;
+    font-family: 'Josefin Slab', serif;
+    line-height: 1.5;
+}
+
+.jinBio h1 {
+    text-align: center;
+    line-height: 2.5;
+    font-family: 'Unica one', cursive;
+}
