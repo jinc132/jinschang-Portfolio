@@ -130,13 +130,11 @@ figure {
     height: 24vh;
 }
 
-.social-area {
-    position: relative;
-    left: 41%;
-    margin-top: 2em;
+.social-container {
+    justify-content: center;
 }
 
-.social-area .social-media {
+.social-container .social-area .social-media {
     width: 80px;
     padding: 1em;
 }

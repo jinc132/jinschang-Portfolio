@@ -54,16 +54,18 @@ class Home extends Component {
             </Link>
           </div>
         </div>
-        <div className="social-area">
-          <Link href="mailto:Jinc132@gmail.com">
-            <img alt="email" src={email} className="social-media"/>
-          </Link>
-          <Link href="https://github.com/jinc132">
-            <img alt="github" src={github} className="social-media"/>
-          </Link>
-          <Link href="https://github.com/jinc132">
-            <img alt="linkedin" src={linkedin} className="social-media"/>
-          </Link>
+        <div className="social-container">
+          <div className="social-area">
+            <Link href="mailto:Jinc132@gmail.com">
+              <img alt="email" src={email} className="social-media"/>
+            </Link>
+            <Link href="https://github.com/jinc132">
+              <img alt="github" src={github} className="social-media"/>
+            </Link>
+            <Link href="https://github.com/jinc132">
+              <img alt="linkedin" src={linkedin} className="social-media"/>
+            </Link>
+          </div>
         </div>
       </div>
     );
