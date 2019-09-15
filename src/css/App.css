@@ -6,10 +6,15 @@
     font-family: 'Unica One', cursive;
 }
 
-#navbar li .nav-link:hover, .active {
+#navbar li .nav-link:hover {
     color: #000; 
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid rgb(232,211,162);
     padding-bottom: 4px;
+}
+
+.active {
+    border-bottom: 2px solid #000;
+    padding-bottom: 3px;
 }
 
 #navbar li .nav-link, .nav-brand .nav-link {

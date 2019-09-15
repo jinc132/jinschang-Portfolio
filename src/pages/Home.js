@@ -26,7 +26,7 @@ class Home extends Component {
             </a>
           </div>
           <div className="single-item-row">
-            <a className="item-link" href="https://github.com/jinc132/CeliacRecipes" target="_blank" style={{backgroundColor:'white'}}>
+            <a className="item-link" href="https://github.com/jinc132/CeliacRecipes" target="_blank" style={{backgroundColor:'wheat'}}>
               <div id="celiac" className="proj-image">
                 <div className="hover-overlay">
                   <h2>Celiac Recipes</h2>
@@ -35,14 +35,14 @@ class Home extends Component {
             </a>
           </div>
           <div className="double-item-row">
-            <a className="item-link" href="https://github.com/jinc132/MovieApp" target="_blank" style={{backgroundColor:'#807A46'}}>
+            <a className="item-link" href="https://github.com/jinc132/MovieApp" target="_blank" style={{backgroundColor:'rgb(226, 87, 87)'}}>
               <div id="movieApp" className="proj-image">
                 <div className="hover-overlay">
                   <h2>Movie Rate</h2>
                 </div>
               </div>
             </a>
-            <a className="item-link" href="https://github.com/carmelitadeleon/GEOG458_Final" target="_blank" style={{backgroundColor:'#808080'}}>
+            <a className="item-link" href="https://github.com/carmelitadeleon/GEOG458_Final" target="_blank" style={{backgroundColor:'rgb(139, 139, 137)'}}>
               <div id="usexports" className="proj-image">
                 <div className="hover-overlay">
                   <h2>U.S. Export Analysis</h2>
