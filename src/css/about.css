@@ -40,7 +40,7 @@
     font-family: 'Unica one', cursive;
     width: 180px;
     position: relative;
-    left: 43%;
+    left: 41%;
 }
 
 .email-container a:hover {
@@ -63,4 +63,9 @@
 
 .email-wrapper {
     padding: 5em;
+}
+
+.social-area {
+    position: relative; 
+    left: 41% !important;
 }
