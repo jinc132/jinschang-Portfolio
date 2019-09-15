@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
 
 .intro h1 {
-    font-size: 32px;
+    font-size: 39px;
     font-family: 'Josefin Slab', serif;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .intro {

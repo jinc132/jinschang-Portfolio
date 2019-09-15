@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Assistant|Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Unica+One&display=swap');
 
 #navbar li {
     list-style-type: none;
     font-size: 20px;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Unica One', cursive;
 }
 
 #navbar li .nav-link:hover, .active{
@@ -43,7 +43,7 @@
 #navbar .nav-brand {
     padding-top: 1em;
     font-size: 28px;
-    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Unica One', cursive;
     margin-left: auto;
     margin-right: auto;
 }
