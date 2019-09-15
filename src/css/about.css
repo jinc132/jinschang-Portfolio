@@ -40,7 +40,8 @@
     font-family: 'Unica one', cursive;
     width: 120px;
     position: relative;
-    left: 43%;
+    left: 44%;
+    text-align: center;
 }
 
 .email-container a:hover {
@@ -56,9 +57,7 @@
 }
 
 .email-container a {
-    text-align: center;
     font-size: 20px;
-    padding-top: .3em;
     color: black;
 }
 
@@ -68,5 +67,5 @@
 
 .social-area {
     position: relative; 
-    left: 41% !important;
+    left: 41.5% !important;
 }
