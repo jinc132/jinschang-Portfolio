@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
 
 .intro h1 {
-    font-size: 28px;
-    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-family: 'Lalezar', cursive;
 }
 
 .intro {
