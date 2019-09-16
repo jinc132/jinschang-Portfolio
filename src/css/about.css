@@ -32,6 +32,8 @@
 
 .jinBio p {
     font-size: 18px;
+    position: relative;
+    left: 1.5em;
 }
 
 .email-container {

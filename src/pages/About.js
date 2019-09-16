@@ -28,7 +28,7 @@ const skillset = [
     { text: 'Project Management', value: 903 }
 ];
 
-const fontSizeMapper = word => Math.log2(word.value) * 5;
+const fontSizeMapper = word => Math.log2(word.value) * 3.5;
 const rotate = word => word.value % 60;
 
 class About extends Component {
