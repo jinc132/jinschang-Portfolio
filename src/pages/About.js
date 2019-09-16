@@ -67,7 +67,7 @@ class About extends Component {
                 <div className='email-wrapper'>
                     <div className="email-container">
                         <a href="mailto:Jinc132@gmail.com">
-                            Let's Talk
+                            Let's Talk!
                         </a>
                     </div>
                 </div>
