@@ -71,7 +71,7 @@ class About extends Component {
                         </a>
                     </div>
                 </div>
-                <div className="social-area">
+                <div className="about-social-area">
                     <a href="https://github.com/jinc132" rel="noopener noreferrer" target="_blank">
                         <div className="circle">
                             <i className="fa fa-github" id="social-media"></i>
