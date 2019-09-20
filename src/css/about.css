@@ -74,17 +74,17 @@
 
 .app-outer {
     align-items: center;
-    width: 1000px;
-    height: 50vh;
+    width: 685px;
+    height: 85vh;
     display: flex;
     flex-direction: column;
 }
+
 
 .app-inner {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	max-width: 1000px;
 	width: 100%;
 }
 
