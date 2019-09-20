@@ -74,9 +74,8 @@
 
 .app-outer {
     align-items: center;
-    width: 100%;
-    height: 450px;
-    padding: 60px 0;
+    width: 1000px;
+    height: 50vh;
     display: flex;
     flex-direction: column;
 }
