@@ -1,38 +1,47 @@
-import React, { Component } from 'react'; 
-import WordCloud from 'react-d3-cloud';
+import React, { Component } from 'react';
+import randomColor from 'randomcolor';
+import TagCloud from 'react-tag-cloud';
 import '../css/about.css';
 import '../css/home.css';
 import picture from '../css/img/jinPicture.png';
 
+
 const skillset = [
-    { text: 'Java', value: 50000 },
-    { text: 'HTML', value: 200 },
-    { text: 'CSS', value: 50 },
-    { text: 'JavaScript', value: 3400 },
-    { text: 'ReactJS', value: 2300 },
-    { text: 'NodeJS', value: 3400 },
-    { text: 'R', value: 300 },
-    { text: 'Python', value: 500 },
-    { text: 'VueJS', value: 520 },
-    { text: 'JUnit', value: 5042 },
-    { text: 'TypeScript', value: 5340 },
-    { text: 'Firebase', value: 5568 },
-    { text: 'SQL', value: 3290 },
-    { text: 'Tableau', value: 6320 },
-    { text: 'Figma', value: 2040 },
-    { text: 'Jupyter Notebook', value: 3920 },
-    { text: 'QGIS', value: 482 },
-    { text: 'ArcGIS', value: 554 },
-    { text: 'Communication', value: 490 },
-    { text: 'Trello', value: 1493 },
-    { text: 'Project Management', value: 903 }
+    { text: 'HTML', value: 24 },
+    { text: 'CSS', value: 24 },
+    { text: 'JavaScript', value: 24 },
+    { text: 'ReactJS', value: 36 },
+    { text: 'NodeJS', value: 36 },
+    { text: 'R', value: 24 },
+    { text: 'Python', value: 18 },
+    { text: 'VueJS', value: 5 },
+    { text: 'JUnit', value: 15 },
+    { text: 'TypeScript', value: 22 },
+    { text: 'Firebase', value: 26 },
+    { text: 'SQL', value: 5 },
+    { text: 'Tableau', value: 22 },
+    { text: 'Figma', value: 34 },
+    { text: 'Jupyter Notebook', value: 35 },
+    { text: 'QGIS', value: 10 },
+    { text: 'ArcGIS', value: 15 },
+    { text: 'Communication', value: 40 },
+    { text: 'Trello', value: 9 },
+    { text: 'Project Management', value: 26 },
+    { text: 'Korean', value: 45 }
 ];
-
-const fontSizeMapper = word => Math.log2(word.value) * 3.5;
-const rotate = word => word.value % 60;
-
+  
 class About extends Component {
+    componentDidMount() {
+        setInterval(() => {
+          this.forceUpdate();
+        }, 3000);
+    }
     render() {
+        let skillTags = skillset.map(function(skill, i) {
+            return(
+              <div>{skill.text}</div>
+            );
+        });
         return (
             <div>
                 <div className="greeting">
@@ -43,7 +52,7 @@ class About extends Component {
                 </div>
                 <div className="jinBio">
                     <div className="about-info">
-                        <h2>Who is Jin?</h2>
+                        <h2>Who Am I?</h2>
                         <p>
                             I am a recent graduate from <a href="https://artsci.washington.edu/" rel="noopener noreferrer" target="_blank">University of Washington</a> with
                             a degree in <a href="https://geography.washington.edu/" rel="noopener noreferrer" target="_blank">Geographic Information Systems</a> and a
@@ -58,7 +67,28 @@ class About extends Component {
 
                             During my downtime, I have would go hiking, read on my sofa, or a collaborate on fun side projects. I’m experienced in utilizing: 
                         </p>
-                        <WordCloud data={skillset} fontSizeMapper={fontSizeMapper} rotate={rotate}/>
+                        <div className='app-outer'>
+                            <div className='app-inner'>
+                                <TagCloud 
+                                    className='tag-cloud'
+                                    style={{
+                                        fontSize: 30,
+                                        fontFamily: 'Josefin Slab, serif',
+                                        color: () => randomColor(
+                                            {hue: 'green'}
+                                        )
+                                    }}>
+                                    <div
+                                        style={{
+                                            fontFamily: 'Staatliches, cursive',
+                                            fontWeight: 'bold',
+                                            fontSize: 40,
+                                            color: 'orange'
+                                        }}>Java</div>
+                                    {skillTags}
+                                </TagCloud>
+                            </div>
+                        </div>
                         <p>
                             I would like to apply my skills in a team based setting to create software products that make a big impact.
                         </p>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Unica+One|Staatliches&display=swap');
 
 .personal-pic-wrapper {
     background-color: rgba(226, 131, 42, 0.733);
@@ -70,4 +70,30 @@
 #about-social {
     position: relative; 
     left: 41%;
+}
+
+.app-outer {
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-inner {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	max-width: 1000px;
+	width: 100%;
+}
+
+.tag-cloud {
+	flex: 1;
+}
+
+.tag-cloud > div {
+    transition: 1.4s;
+    padding: 1em;
 }
