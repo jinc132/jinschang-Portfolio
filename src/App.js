@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Route, Switch, withRouter } from 'react-router-dom';
 import { NavLink, NavItem } from 'reactstrap';
 import About from './pages/About';
-import Home from './pages/Home';
-import resume from './pages/jinresume.pdf';
+import Home from './pages/Home'; 
+import Resume from './pages/Resume';
 import './css/App.css';
 
 class App extends Component {
@@ -12,7 +12,8 @@ class App extends Component {
       <div>
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/Projects' component={Home}/>
+          <Route path='/Projects' component={Home} />
+          <Route path='/Resume' component={Resume}/>
           <Route path='/About' component={About} />
         </Switch>
       </div>
@@ -26,7 +27,7 @@ class App extends Component {
               <NavLink href='/Projects'>Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href={resume} target='_blank'>Resume</NavLink>
+              <NavLink href='/Resume' >Resume</NavLink>
             </NavItem>
           </div>
           <div className='nav-brand'>

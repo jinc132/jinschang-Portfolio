@@ -80,7 +80,6 @@ class About extends Component {
                                     }}>
                                     <div
                                         style={{
-                                            fontFamily: 'Staatliches, cursive',
                                             fontWeight: 'bold',
                                             fontSize: 40,
                                             color: 'orange'
