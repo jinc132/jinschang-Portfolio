@@ -6,28 +6,10 @@ import '../css/home.css';
 import picture from '../css/img/jinPicture.png';
 
 
-const skillset = [
-    { text: 'HTML', value: 24 },
-    { text: 'CSS', value: 24 },
-    { text: 'JavaScript', value: 24 },
-    { text: 'ReactJS', value: 36 },
-    { text: 'NodeJS', value: 36 },
-    { text: 'R', value: 24 },
-    { text: 'Python', value: 18 },
-    { text: 'VueJS', value: 5 },
-    { text: 'JUnit', value: 15 },
-    { text: 'TypeScript', value: 22 },
-    { text: 'Firebase', value: 26 },
-    { text: 'SQL', value: 5 },
-    { text: 'Tableau', value: 22 },
-    { text: 'Figma', value: 34 },
-    { text: 'Jupyter Notebook', value: 35 },
-    { text: 'QGIS', value: 10 },
-    { text: 'ArcGIS', value: 15 },
-    { text: 'Communication', value: 40 },
-    { text: 'Trello', value: 9 },
-    { text: 'Project Management', value: 26 },
-    { text: 'Korean', value: 45 }
+const skillset = [ 'HTML', 'CSS', 'JavaScript', 'ReactJS', 'NodeJS', 'R',
+    'Python', 'VueJS', 'JUnit', 'TypeScript', 'Firebase', 'SQL', 'Tableau',
+    'Figma', 'Jupyter Notebook', 'QGIS', 'ArcGIS', 'Communication', 'Trello',
+    'Project Management', 'Korean', 'Japanese', 'Selenium', 'Heroku', 'Shiny', 'Eclipse'
 ];
   
 class About extends Component {
@@ -37,9 +19,9 @@ class About extends Component {
         }, 3000);
     }
     render() {
-        let skillTags = skillset.map(function(skill, i) {
+        let skillTags = skillset.map(function(skill) {
             return(
-              <div>{skill.text}</div>
+              <div key={skill}>{skill}</div>
             );
         });
         return (
