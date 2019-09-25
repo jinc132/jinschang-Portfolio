@@ -179,6 +179,7 @@ class Resume extends Component {
             </div>
           </a>
         </div>
+        <footer>2019 created via ReactJS by Jin Chang and Photo by Marc Mintel on Unsplash</footer>
       </div>
     )
   }
