@@ -76,6 +76,10 @@
     color: black;
 }
 
+.intro-wrapper a {
+    text-decoration: none;
+}
+
 .list {
     font-family: 'Josefin Slab', serif;
 }
@@ -100,4 +104,6 @@
 
 footer {
     text-align: center;
+    padding-top: 10px;
+    font-size: 3vh
 }
