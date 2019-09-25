@@ -95,7 +95,7 @@ class Resume extends Component {
               <div className='img-wrapper'>
                 <img src={pic} alt='jin' />
               </div>
-              <a href={resume} target='_blank' download>
+              <a href={resume} target='_blank' rel="noopener noreferrer" download>
                 <button>Download Resume</button>
               </a>
             </div>
@@ -179,7 +179,6 @@ class Resume extends Component {
             </div>
           </a>
         </div>
-        <footer>2019 Jin Chang & Photo by Marc Mintel on Unsplash</footer>
       </div>
     )
   }
