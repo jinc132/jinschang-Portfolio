@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600&display=swap');
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Josefin Slab', serif;
+    line-height: 2;
+}
+
+#resume-container {
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding-bottom: 5vh;
+}
+
+.container h2 {
+    font-family: 'Unica one', cursive;
+    line-height: 2;
+}
+
+#resume-container .list {
+    margin-top: 4em;
+}
+
+#education-container {
+    padding-bottom: 15vh;
+}
+
+.background {
+    background: url('./img/code.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.background .background-overlay {
+    background-color: rgba(0, 0, 0, 0.74);
+    height: inherit;
+    text-align: center;
+}
+
+.intro-wrapper .img-wrapper img {
+    border: 5px solid rgb(232,211,162);
+    border-radius: 50%;
+}
+
+.intro-wrapper .img-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    justify-content: center;
+}
+
+.background-overlay .intro-wrapper {
+    position: relative;
+    top: 10%;
+}
+
+.intro-wrapper a button {
+    border-radius: 20px;
+    border: 2px solid rgb(232,211,162);
+    background: inherit;
+    color: white;
+    font-family: 'Unica one', cursive;
+    font-size: 24px;
+    width: 200px;
+}
+
+.intro-wrapper a button:hover {
+    background: rgb(232,211,162);
+    color: black;
+}
+
+.list {
+    font-family: 'Josefin Slab', serif;
+}
+
+.description-container a {
+    color: rgb(189, 162, 99);
+}
+
+.line1, .line2 {
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.list, .description-container {
+    width: 50vw;
+}
+
+.description-container {
+    font-family: 'Josefin Slab', serif;
+    margin-left: 25%;
+}
