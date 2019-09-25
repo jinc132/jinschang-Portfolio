@@ -95,7 +95,7 @@ class Resume extends Component {
               <div className='img-wrapper'>
                 <img src={pic} alt='jin' />
               </div>
-              <a href={resume} download>
+              <a href={resume} target="_blank" download>
                 <button>Download Resume</button>
               </a>
             </div>
