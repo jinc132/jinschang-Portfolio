@@ -153,7 +153,7 @@ class Resume extends Component {
           <h2>Projects</h2>
           {renderProjects}
         </div>
-        <div className='container' id="education-container">
+        <div className='container' id='education-container'>
           <h2>Education</h2>
           <div className='description-container'>
             <div className='line1'>B.A. Geographic Information Systems</div>
