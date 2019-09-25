@@ -98,6 +98,7 @@ class About extends Component {
             </div>
           </a>
         </div>
+        <footer>2019 Jin Chang</footer>
       </div>
     )
   }

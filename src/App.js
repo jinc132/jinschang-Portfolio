@@ -42,6 +42,7 @@ class App extends Component {
             </NavItem>
           </div>
         </ul>
+        <footer>2019 Jin Chang</footer>
       </div>
     )
     return (
