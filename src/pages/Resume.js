@@ -96,7 +96,7 @@ class Resume extends Component {
                 <img src={pic} alt='jin' />
               </div>
               <a href={resume} rel='noopener noreferrer' target='_blank'>
-                <button>CV / Resume</button>
+                <button>Download Resume</button>
               </a>
             </div>
           </div>
