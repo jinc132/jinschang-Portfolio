@@ -23,7 +23,7 @@ class App extends Component {
       <div className='navi'>
         <ul id='navbar'>
           <div className='work'>
-            <NavItem className={this.props.history.location.pathname === '/Projects' ? 'active' : ''}>
+            <NavItem className={(this.props.history.location.pathname === '/Projects' || this.props.history.location.pathname === '') ? 'active' : ''}>
               <NavLink href='/Projects'>Projects</NavLink>
             </NavItem>
             <NavItem className={this.props.history.location.pathname === '/Resume' ? 'active' : ''}>
