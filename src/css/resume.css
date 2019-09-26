@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,600&display=swap');
 
-.title {
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Josefin Slab', serif;
-    line-height: 2;
-}
-
 #resume-container {
-    padding-top: 10vh;
+    padding-top: 5vh;
     display: flex;
     justify-content: space-between;
 }
@@ -27,56 +20,39 @@
 }
 
 #education-container {
-    padding-bottom: 15vh;
+    padding-bottom: 10vh;
 }
 
-.background {
-    background: url('./img/code.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-}
-
-.background .background-overlay {
-    background-color: rgba(0, 0, 0, 0.74);
-    height: inherit;
-    text-align: center;
-}
-
-.intro-wrapper .img-wrapper img {
-    border: 5px solid rgb(232,211,162);
-    border-radius: 50%;
-    width: 15vw;
-}
-
-.intro-wrapper .img-wrapper {
+.end-container {  
     display: flex;
-    align-items: center;
-    padding: 2em;
     justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Josefin Slab', serif;
+    line-height: 2;
+    padding-bottom: 5vh;
 }
 
-.background-overlay .intro-wrapper {
+.end-wrapper {
     position: relative;
     top: 10%;
 }
 
-.intro-wrapper a button {
+.end-wrapper a button {
     border-radius: 20px;
     border: 2px solid rgb(232,211,162);
     background: inherit;
-    color: white;
+    color: black;
     font-family: 'Unica one', cursive;
     font-size: 24px;
     width: 300px;
 }
 
-.intro-wrapper a button:hover {
+.end-wrapper a button:hover {
     background: rgb(232,211,162);
-    color: black;
 }
 
-.intro-wrapper a {
+.end-wrapper a {
     text-decoration: none;
 }
 

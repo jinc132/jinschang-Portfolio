@@ -64,7 +64,7 @@ class Resume extends Component {
       if (project.link !== '') {
         projectLink = (
           <div className='line2'>
-            <a href={project.link}>{project.projectName}</a>, {project.location}
+            <a href={project.link} target='_blank' rel='noopener noreferrer'>{project.projectName}</a>, {project.location}
           </div>
         )
       } else {
@@ -88,19 +88,6 @@ class Resume extends Component {
 
     return (
       <div>
-        <h1 className='title'>Take a Closer Look</h1>
-        <div className='background'>
-          <div className='background-overlay'>
-            <div className='intro-wrapper'>
-              <div className='img-wrapper'>
-                <img src={pic} alt='jin' />
-              </div>
-              <a href={resume} target='_blank' rel="noopener noreferrer" download>
-                <button>Download Resume</button>
-              </a>
-            </div>
-          </div>
-        </div>
         <div className='container' id='resume-container'>
           <h2>Skillset</h2>
           <div className='list'>
@@ -160,6 +147,13 @@ class Resume extends Component {
             <div>
               University of Washington, Seattle, WA | November 2016 – July 2019
             </div>
+          </div>
+        </div>
+        <div className='end-container'>
+          <div className='end-wrapper'>
+            <a href={resume} target='_blank' rel='noopener noreferrer' download>
+              <button>Download Resume</button>
+            </a>
           </div>
         </div>
         <div className='social-area'>
