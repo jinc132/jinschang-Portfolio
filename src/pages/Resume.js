@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import { Tooltip } from 'reactstrap';
 import '../css/resume.css';
 import '../css/home.css';
 import resume from './jinresume.pdf';
-import pic from '../css/img/circlePic.png';
 
 const projectsList = [
   {
@@ -10,6 +10,7 @@ const projectsList = [
     link: '',
     projectName: 'What\'s poppin',
     location: 'SWE Hackathon, Seattle, WA | April 2019 – Present',
+    about: 'Creating a web application that displays popular amenities at specific timeframes',
     info: [
       'Designed and implemented a web interface to display live popular times from the Places API',
       'Engineered the user interface so that users can dynamically create a new account or login',
@@ -21,6 +22,7 @@ const projectsList = [
     link: 'https://github.com/info442-sp19-undefined/hw7',
     projectName: 'IceBreaker',
     location: 'University of Washington, Seattle, WA | April 2019 – July 2019',
+    about: 'Developed a web application that focuses on fostering stronger team relationships',
     info: [
       'Designed and implemented a web interface to display live popular times from the Places API',
       'Engineered the user interface so that users can dynamically create a new account or login',
@@ -32,6 +34,7 @@ const projectsList = [
     link: '',
     projectName: 'CAD MVC',
     location: 'University of Washington, Seattle, WA | May 2019',
+    about: 'Implemented the MVC pattern in a Computer Aided Design program which allows users to design the architecture of a block house or something on a similar scale',
     info: [
       'Developed a textual and graphical view allowing two different modes of modeling in TypeScript',
       'Implemented MVC and Observer pattern into architecture '
@@ -42,6 +45,7 @@ const projectsList = [
     link: '',
     projectName: 'Search Engine',
     location: 'University of Washington, Seattle, WA | April 2018 – May 2018',
+    about: 'Developed a simple search engine that allows users to look up stuff.',
     info: [
       'Created a dictionary data structure and its associating get, add, remove, and contains methods in Java',
       'Troubleshooted and addressed algorithmic issues with JUnit testing',
@@ -49,7 +53,22 @@ const projectsList = [
     ]
   }
 ]
+
 class Resume extends Component {
+  constructor (props) {
+    super(props)
+    this.toggle = this.toggle.bind(this)
+    this.state = {
+      tooltipOpen: ''
+    }
+  }
+
+  toggle (val) {
+    this.setState({
+      tooltipOpen: val
+    })
+  }
+  
   render () {
     let renderProjects = projectsList.map(function (project, i) {
       // Render the role description of each project
@@ -63,13 +82,13 @@ class Resume extends Component {
       let projectLink = null
       if (project.link !== '') {
         projectLink = (
-          <div className='line2'>
+          <div className='line2' id={'Tooltip-' + i} onMouseOver={() => this.toggle('toolTips-' + i)} onMouseLeave={() => this.toggle('')}>
             <a href={project.link} target='_blank' rel='noopener noreferrer'>{project.projectName}</a>, {project.location}
           </div>
         )
       } else {
         projectLink = (
-          <div className='line2'>
+          <div className='line2' id={'Tooltip-' + i} onMouseOver={() => this.toggle('toolTips-' + i)} onMouseLeave={() => this.toggle('')}>
             {project.projectName}, {project.location}
           </div>
         )
@@ -79,12 +98,15 @@ class Resume extends Component {
         <div className='description-container' key={i}>
           <div className='line1'>{project.role}</div>
           {projectLink}
+          <Tooltip placement='left' isOpen={this.state.tooltipOpen === 'toolTips-' + i} target={'Tooltip-' + i}>
+            {project.about}
+          </Tooltip>
           <ul>
             {roleDescription}
           </ul>
         </div>
       )
-    })
+    }, this)
 
     return (
       <div>
@@ -125,9 +147,13 @@ class Resume extends Component {
           <h2>Experience</h2>
           <div className='description-container'>
             <div className='line1'>Front-End Developer</div>
-            <div className='line2'>
+            <div className='line2' id={'Tooltip-SPAN'} onMouseOver={() => this.toggle('Tooltip-SPAN')} onMouseLeave={() => this.toggle('')} >
               <a href='https://povertyaction.org/' rel='noopener noreferrer' target='_blank'>Statewide Poverty Action Network</a>, Seattle, WA | April 2019 – July 2019
             </div>
+            <Tooltip placement='right' isOpen={this.state.tooltipOpen === 'Tooltip-SPAN'} target={'Tooltip-SPAN'}>
+              Developed a web map application with two different modes of exploration - a tour and an interactive map.
+              The web application helps users understand Statewide Poverty Action Network's mission and goals. 
+            </Tooltip>
             <ul>
               <li>Developed a web map application using VueJS, NodeJS, HTML, and CSS</li>
               <li>Initiated and integrated the force load event into the splash page to load automatically in 30 seconds</li>
@@ -151,7 +177,7 @@ class Resume extends Component {
         </div>
         <div className='end-container'>
           <div className='end-wrapper'>
-            <a href={resume} target='_blank' rel='noopener noreferrer' download>
+            <a href={resume} target='_blank' rel='noopener noreferrer' download='jinchang_resume.pdf'>
               <button>Download Resume</button>
             </a>
           </div>
