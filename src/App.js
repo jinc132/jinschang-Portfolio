@@ -20,7 +20,7 @@ class App extends Component {
     )
     
     let menu = (
-      <div className='navi'></div>
+      <div className='navi'>
         <ul id='navbar'>
           <div className='work'>
             <NavItem className={(this.props.history.location.pathname === '/Projects' || this.props.history.location.pathname === '/') ? 'active' : ''}>
