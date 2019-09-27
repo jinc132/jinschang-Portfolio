@@ -20,10 +20,10 @@ class App extends Component {
     )
     
     let menu = (
-      <div className='navi'>
+      <div className='navi'></div>
         <ul id='navbar'>
           <div className='work'>
-            <NavItem className={(this.props.history.location.pathname === '/Projects' || this.props.history.location.pathname === '') ? 'active' : ''}>
+            <NavItem className={(this.props.history.location.pathname === '/Projects' || this.props.history.location.pathname === '/') ? 'active' : ''}>
               <NavLink href='/Projects'>Projects</NavLink>
             </NavItem>
             <NavItem className={this.props.history.location.pathname === '/Resume' ? 'active' : ''}>
