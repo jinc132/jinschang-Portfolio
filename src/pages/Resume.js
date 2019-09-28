@@ -143,8 +143,8 @@ class Resume extends Component {
               <li>Responsive Layout and Design</li>
               <li>Tableau</li>
               <li>Selenium</li>
-              <li>SQL (limited)</li>
-              <li>Vue.js (limited)</li>
+              <li>SQL</li>
+              <li>Vue.js</li>
             </ul>
           </div>
         </div>
