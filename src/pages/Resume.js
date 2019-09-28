@@ -10,7 +10,7 @@ const projectsList = [
     link: '',
     projectName: 'What\'s poppin',
     location: 'SWE Hackathon, Seattle, WA | April 2019 – Present',
-    about: 'Creating a web application that displays popular amenities at specific timeframes',
+    about: 'Creating a web application that displays popular amenities at specific timeframes.',
     info: [
       'Designed and implemented a web interface to display live popular times from the Places API',
       'Engineered the user interface so that users can dynamically create a new account or login',
@@ -22,22 +22,24 @@ const projectsList = [
     link: 'https://github.com/info442-sp19-undefined/hw7',
     projectName: 'IceBreaker',
     location: 'University of Washington, Seattle, WA | April 2019 – July 2019',
-    about: 'Developed a web application that focuses on fostering stronger team relationships',
+    about: 'Developed a web application that focuses on fostering stronger team relationships.',
     info: [
-      'Designed and implemented a web interface to display live popular times from the Places API',
-      'Engineered the user interface so that users can dynamically create a new account or login',
-      'Collaborated and managed code using GIT and version control'
+      'Oversaw the development of a new web application via ReactJS, Firebase, NodeJS, HTML, and CSS',
+      'Implemented 2 different front-end features where the user can either join an existing game or create a new game',
+      'Pushed app development two weeks ahead of schedule through unit, UI, and integration tests',
+      'Conducted code reviews for each module'
     ]
   },
   {
     role: 'Software Developer',
     link: '',
-    projectName: 'CAD MVC',
+    projectName: 'Computer-Aided Design MVC',
     location: 'University of Washington, Seattle, WA | May 2019',
-    about: 'Implemented the MVC pattern in a Computer Aided Design program which allows users to design the architecture of a block house or something on a similar scale',
+    about: 'A simple Computer-Aided Design (CAD) program that someone could theoretically use to design the architecture of a block house or something of similar scale.',
     info: [
-      'Developed a textual and graphical view allowing two different modes of modeling in TypeScript',
-      'Implemented MVC and Observer pattern into architecture '
+      'Developed a CAD program via TypeScript, NodeJS, and GIT',
+      'Dynamically allow users to have different modes of interaction by implementing the MVC and Observer pattern',
+      'Applied the SOLID principle to reduce cohesion and coupling'
     ]
   },
   {
@@ -120,6 +122,7 @@ class Resume extends Component {
               <li>React.js</li>
               <li>Node.js</li>
               <li>JavaScript</li>
+              <li>AWS</li>
             </ul>
           </div>
           <div className='list'>
@@ -130,6 +133,7 @@ class Resume extends Component {
               <li>Junit</li>
               <li>TypeScript</li>
               <li>Firebase</li>
+              <li>Heroku</li>
             </ul>
           </div>
           <div className='list'>
@@ -138,6 +142,7 @@ class Resume extends Component {
               <li>Jupyter Notebook</li>
               <li>Responsive Layout and Design</li>
               <li>Tableau</li>
+              <li>Selenium</li>
               <li>SQL (limited)</li>
               <li>Vue.js (limited)</li>
             </ul>
@@ -157,7 +162,7 @@ class Resume extends Component {
             <ul>
               <li>Developed a web map application using VueJS, NodeJS, HTML, and CSS</li>
               <li>Initiated and integrated the force load event into the splash page to load automatically in 30 seconds</li>
-              <li>Developed an automated web scraper with Selenium and parsed the data with Python</li>
+              <li>Created an automated web scraper via the Selenium library and parsed the data with Python scripts</li>
               <li>Tested and troubleshooted technical issues</li>
             </ul>
           </div>
