@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Tooltip } from 'reactstrap';
 import '../css/resume.css';
 import '../css/home.css';
-import resume from './jinresume.pdf';
+import resume from './resume_.pdf';
 
 const projectsList = [
   {
