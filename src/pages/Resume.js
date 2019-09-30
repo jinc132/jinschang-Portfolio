@@ -134,12 +134,14 @@ class Resume extends Component {
               <li>React.js</li>
               <li>Node.js</li>
               <li>JavaScript</li>
+              <li>Jest</li>
               <li>AWS</li>
             </ul>
           </div>
           <div className='list'>
             <ul>
               <li>Java</li>
+              <li>Eclipse</li>
               <li>Python</li>
               <li>R</li>
               <li>Junit</li>
@@ -153,6 +155,7 @@ class Resume extends Component {
               <li>Powtoon</li>
               <li>Jupyter Notebook</li>
               <li>Responsive Layout and Design</li>
+              <li>Figma</li>
               <li>Tableau</li>
               <li>Selenium</li>
               <li>SQL</li>
