@@ -7,14 +7,14 @@ import resume from './resume_.pdf';
 const projectsList = [
   {
     role: 'Front-End Developer',
-    link: '',
-    projectName: 'What\'s poppin',
-    location: 'SWE Hackathon, Seattle, WA | April 2019 – Present',
-    about: 'Creating a web application that displays popular amenities at specific timeframes.',
+    link: 'https://github.com/jinc132/jinschang-Portfolio',
+    projectName: 'Personal Portfolio',
+    location: 'Lynnwood, WA | August 2019 – September 2019',
+    about: 'Designing a web application that displays my portfolio.',
     info: [
-      'Designed and implemented a web interface to display live popular times from the Places API',
-      'Engineered the user interface so that users can dynamically create a new account or login',
-      'Collaborated and managed code using GIT and version control'
+      'Designed and engineered a web application to present my porfolio using React.js, Node.js, Git, and Heroku',
+      'Implemented a word cloud library to create a active word cloud that moves after some time',
+      'Utilized JavaScript to assure that adding additional content to the Resume page is flexible and simple'
     ]
   },
   {
@@ -28,6 +28,18 @@ const projectsList = [
       'Implemented 2 different front-end features where the user can either join an existing game or create a new game',
       'Pushed app development two weeks ahead of schedule through unit, UI, and integration tests',
       'Conducted code reviews for each module'
+    ]
+  },
+  {
+    role: 'Data Analyst',
+    link: 'https://jinc132.shinyapps.io/GEOG458_FinalProject/',
+    projectName: 'U.S. Exports',
+    location: 'University of Washington, Seattle, WA | February 2019 – March 2019 ',
+    about: 'Creating a web application that presents an analysis regarding the U.S.\'s top exports with multiple visualizations.',
+    info: [
+      'Collaborated and developed a Shiny App that displays an analysis of U.S. top export products via R',
+      'Created two interactive choropleth map visualizations and a dropdown menu displaying all the export products',
+      'Troubleshooted technical bugs that prevented deployment and successfully hosted the app on the shinyapps.io'
     ]
   },
   {
@@ -149,7 +161,7 @@ class Resume extends Component {
           </div>
         </div>
         <div className='container'>
-          <h2>Experience</h2>
+          <h2>Work Experience</h2>
           <div className='description-container'>
             <div className='line1'>Front-End Developer</div>
             <div className='line2' id={'Tooltip-SPAN'} onMouseOver={() => this.toggle('Tooltip-SPAN')} onMouseLeave={() => this.toggle('')} >
