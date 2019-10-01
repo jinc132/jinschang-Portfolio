@@ -74,7 +74,17 @@
     #navbar .nav-brand {
         padding-top: 2em;
         font-size: 19px;
-        position: relative;
-        left: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar .work {
+        margin-left: 40px;
+        margin-right: 115px;
+    }
+
+    #navbar .personal {
+        margin-left: 40px;
+        margin-right: 115px;
     }
 }
