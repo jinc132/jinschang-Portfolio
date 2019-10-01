@@ -83,3 +83,29 @@ footer {
     padding-top: 10px;
     font-size: 2vh
 }
+
+@media (min-width: 768px) {
+    .personal-pic-wrapper img {
+        position: relative;
+        left: 30%;
+    }
+
+    #about-social {
+        position: relative;
+        left: 39%;
+    }
+}
+
+@media (min-width: 440px) { 
+    .greeting h1 {
+        font-size: 28px;
+    }
+
+    .personal-pic-wrapper img {
+        width: 200px;
+    }
+
+    .jinBio h2 {
+        font-size: 24px;
+    }
+}

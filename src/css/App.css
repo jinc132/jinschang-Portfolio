@@ -55,3 +55,26 @@
     text-transform: uppercase; 
     color: #000;
 }
+
+@media (min-width: 440px) { 
+    #navbar li {
+        font-size: 12px;
+    }
+
+    #navbar .work {
+        margin-left: 10px;
+        margin-right: 60px;
+    }
+
+    #navbar .personal {
+        margin-left: 25px;
+        margin-right: 79px;
+    }
+
+    #navbar .nav-brand {
+        padding-top: 1.5em;
+        font-size: 19px;
+        position: relative;
+        left: 5%;
+    }
+}
