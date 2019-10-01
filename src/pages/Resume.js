@@ -67,7 +67,6 @@ const projectsList = [
     ]
   }
 ]
-
 class Resume extends Component {
   constructor (props) {
     super(props)
@@ -126,41 +125,43 @@ class Resume extends Component {
       <div>
         <div className='container' id='resume-container'>
           <h2>Skillset</h2>
-          <div className='list'>
-            <ul>
-              <li>Version Control (GIT)</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>React.js</li>
-              <li>Node.js</li>
-              <li>JavaScript</li>
-              <li>Jest</li>
-              <li>AWS</li>
-            </ul>
-          </div>
-          <div className='list'>
-            <ul>
-              <li>Java</li>
-              <li>Eclipse</li>
-              <li>Python</li>
-              <li>R</li>
-              <li>Junit</li>
-              <li>TypeScript</li>
-              <li>Firebase</li>
-              <li>Heroku</li>
-            </ul>
-          </div>
-          <div className='list'>
-            <ul>
-              <li>Powtoon</li>
-              <li>Jupyter Notebook</li>
-              <li>Responsive Layout and Design</li>
-              <li>Figma</li>
-              <li>Tableau</li>
-              <li>Selenium</li>
-              <li>SQL</li>
-              <li>Vue.js</li>
-            </ul>
+          <div className="list-wrapper">
+            <div className='list'>
+              <ul>
+                <li>Version Control (GIT)</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>JavaScript</li>
+                <li>Jest</li>
+                <li>AWS</li>
+              </ul>
+            </div>
+            <div className='list'>
+              <ul>
+                <li>Java</li>
+                <li>Eclipse</li>
+                <li>Python</li>
+                <li>R</li>
+                <li>Junit</li>
+                <li>TypeScript</li>
+                <li>Firebase</li>
+                <li>Heroku</li>
+              </ul>
+            </div>
+            <div className='list'>
+              <ul>
+                <li>Powtoon</li>
+                <li>Jupyter Notebook</li>
+                <li>Responsive Layout and Design</li>
+                <li>Figma</li>
+                <li>Tableau</li>
+                <li>Selenium</li>
+                <li>SQL</li>
+                <li>Vue.js</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className='container'>
