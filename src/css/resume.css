@@ -97,6 +97,10 @@ footer {
 }
 
 @media (max-width: 440px) { 
+    .nav-link {
+        padding: .5rem .5rem;
+    }
+    
     .personal-pic-wrapper img {
         position: relative;
         left: 30%;
