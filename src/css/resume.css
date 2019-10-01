@@ -126,15 +126,26 @@ footer {
 
     #about-social {
         position: relative;
-        left: 18%;
+        left: 22%;
+    }
+
+    .social-area .circle {
+        width: 25px;
+        height: 25px;
+    }
+
+    .social-area #social-media {
+        font-size: 15px;
+        position: relative;
+        bottom: 4px;
     }
 
     .email-container {
-        width: 93px;
+        width: 90px;
         left: 33%;
     }
 
     .email-container a {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
