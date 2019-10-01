@@ -84,7 +84,7 @@ footer {
     font-size: 2vh
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .personal-pic-wrapper img {
         position: relative;
         left: 39%;
