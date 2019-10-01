@@ -112,4 +112,9 @@ footer {
     .jinBio p {
         font-size: 13px;
     }
+
+    #about-social {
+        position: relative;
+        left: 22%;
+    }
 }

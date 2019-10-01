@@ -62,17 +62,17 @@
     }
 
     #navbar .work {
-        margin-left: 10px;
-        margin-right: 60px;
+        margin-left: -10px;
+        margin-right: 83px;
     }
 
     #navbar .personal {
-        margin-left: 25px;
-        margin-right: 79px;
+        margin-left: -24px;
+        margin-right: 66px;
     }
 
     #navbar .nav-brand {
-        padding-top: 1.5em;
+        padding-top: 2em;
         font-size: 19px;
         position: relative;
         left: 5%;
