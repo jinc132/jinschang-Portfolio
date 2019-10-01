@@ -56,7 +56,7 @@
     color: #000;
 }
 
-@media (min-width: 440px) { 
+@media (max-width: 440px) { 
     #navbar li {
         font-size: 12px;
     }
