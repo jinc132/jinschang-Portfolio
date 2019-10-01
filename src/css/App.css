@@ -57,6 +57,10 @@
 }
 
 @media (max-width: 440px) { 
+    .nav-link {
+        padding: .5rem .5rem;
+    }
+
     #navbar li {
         font-size: 12px;
     }
@@ -77,7 +81,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 441px){
     #navbar .work {
         margin-left: 40px;
         margin-right: 115px;
