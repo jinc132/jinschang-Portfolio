@@ -133,6 +133,7 @@ figure {
     display: flex;
     position: relative; 
     left: 42.5%;
+    width: 200px;
 }
 
 .social-area a {

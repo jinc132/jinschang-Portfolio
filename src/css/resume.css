@@ -29,13 +29,13 @@
 }
 
 .end-container {  
-    display: flex;
-    justify-content: center;
-    text-align: center;
     font-size: 32px;
     font-family: 'Josefin Slab', serif;
     line-height: 2;
     padding-bottom: 5vh;
+    position: relative;
+    left: 40%;
+    width: 300px;
 }
 
 .end-wrapper {
@@ -83,8 +83,12 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.list, .description-container, .skill-list {
-    width: 50vw;
+.list, .description-container {
+    width: 60vw;
+}
+
+.skill-list {
+    width: 70vw; 
 }
 
 .skill-list ul {
@@ -99,7 +103,7 @@
 
 .description-container {
     font-family: 'Josefin Slab', serif;
-    margin-left: 25%;
+    margin-left: 12%;
 }
 
 footer {
@@ -110,12 +114,24 @@ footer {
 
 
 @media (max-width: 768px) {
-    
+    #resume-container .list-wrapper {
+        position: relative;
+        right: 10vw;
+    }
+
+    .skill-list {
+        width: 88vw;
+    }
 }
 
 @media (max-width: 440px) { 
     h2 {
         font-size: 1.5rem;
+    }
+
+    .end-container {
+        width: 190px;
+        left: 25%;
     }
 
     .container {
@@ -125,7 +141,7 @@ footer {
     #resume-container .list-wrapper {
         margin-top: 5em;
         position: relative;
-        right: 28vw;
+        right: 35vw;
     }
 
     .description-container {
@@ -134,11 +150,7 @@ footer {
     }
 
     .skill-list {
-        width: 100vw;
-    }
-
-    .skill-list li {
-        flex-basis: calc(100% / 2);
+        width: 85vw;
     }
 
     .end-wrapper a button {
@@ -147,6 +159,8 @@ footer {
     }
 
     .social-area {
+        display: flex;
+        position: relative;
         left: 13.5%;
     }
 }
