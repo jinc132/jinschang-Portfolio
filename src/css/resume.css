@@ -57,11 +57,20 @@
     background: rgb(232,211,162);
 }
 
+.end-wrapper a button:active {
+    outline: none;
+    border: none;
+}
+
+.end-wrapper a button:focus {
+    outline: 0;
+}
+
 .end-wrapper a {
     text-decoration: none;
 }
 
-.list {
+.list, .skill-list {
     font-family: 'Josefin Slab', serif;
 }
 
@@ -74,8 +83,18 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.list, .description-container {
+.list, .description-container, .skill-list {
     width: 50vw;
+}
+
+.skill-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skill-list li {
+    flex-basis: calc(100% / 3);
 }
 
 .description-container {
@@ -89,12 +108,45 @@ footer {
     font-size: 2vh
 }
 
+
 @media (max-width: 768px) {
     
 }
 
 @media (max-width: 440px) { 
-    .list-wrapper {
-        margin-right: 20px;
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        font-size: 12px;
+    }
+
+    #resume-container .list-wrapper {
+        margin-top: 5em;
+        position: relative;
+        right: 28vw;
+    }
+
+    .description-container {
+        margin-left: 11%;
+        width: 70vw;
+    }
+
+    .skill-list {
+        width: 100vw;
+    }
+
+    .skill-list li {
+        flex-basis: calc(100% / 2);
+    }
+
+    .end-wrapper a button {
+        font-size: 14px;
+        width: 184px;
+    }
+
+    .social-area {
+        left: 13.5%;
     }
 }

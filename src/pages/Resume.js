@@ -125,8 +125,8 @@ class Resume extends Component {
       <div>
         <div className='container' id='resume-container'>
           <h2>Skillset</h2>
-          <div className="list-wrapper">
-            <div className='list'>
+          <div className='list-wrapper'>
+            <div className='skill-list'>
               <ul>
                 <li>Version Control (GIT)</li>
                 <li>HTML</li>
@@ -136,10 +136,6 @@ class Resume extends Component {
                 <li>JavaScript</li>
                 <li>Jest</li>
                 <li>AWS</li>
-              </ul>
-            </div>
-            <div className='list'>
-              <ul>
                 <li>Java</li>
                 <li>Eclipse</li>
                 <li>Python</li>
@@ -148,10 +144,6 @@ class Resume extends Component {
                 <li>TypeScript</li>
                 <li>Firebase</li>
                 <li>Heroku</li>
-              </ul>
-            </div>
-            <div className='list'>
-              <ul>
                 <li>Powtoon</li>
                 <li>Jupyter Notebook</li>
                 <li>Responsive Layout and Design</li>
