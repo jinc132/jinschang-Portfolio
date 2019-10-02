@@ -9,7 +9,7 @@ const projectsList = [
     role: 'Front-End Developer',
     link: 'https://github.com/jinc132/jinschang-Portfolio',
     projectName: 'Personal Portfolio',
-    location: 'Lynnwood, WA | August 2019 – September 2019',
+    location: 'Lynnwood, WA | August 2019 – October 2019',
     about: 'Designing a web application that displays my portfolio.',
     info: [
       'Designed and engineered a web application to present my porfolio using React.js, Node.js, Git, and Heroku',
