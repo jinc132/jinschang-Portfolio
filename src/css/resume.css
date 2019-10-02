@@ -112,9 +112,9 @@ footer {
     font-size: 2vh
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) and (min-width: 769px){
     .end-container {
-        left: 35vw;
+        left: 36vw;
     }
 
     .social-area {
@@ -122,7 +122,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 441px)  {
     #resume-container .list-wrapper {
         position: relative;
         right: 10vw;
@@ -148,7 +148,7 @@ footer {
 
     .end-container {
         width: 190px;
-        left: 25vw;
+        left: 26vw;
     }
 
     .container {
