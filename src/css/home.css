@@ -18,16 +18,12 @@
     padding-bottom: 5vh;
 }
 
-figure {
-    margin: 0;
-} 
-
 .double-item-row, .single-item-row {
     display: flex;
 }
 
 .single-item-row .item-link {
-    width: 88.4vw;
+    width: 86vw;
     height: 30vh;
 }
 
@@ -36,12 +32,20 @@ figure {
     height: 30vh;
 }
 
-.single-item-row .hover-overlay {
-    width: 85vw;
+.single-item-row .hover-overlay, 
+.double-item-row .hover-overlay {
+    position: relative;
+    bottom: 20vh;
 } 
 
+.single-item-row .hover-overlay {
+    width: 86vw;
+}
+
 .double-item-row .hover-overlay {
-    width: 42.5vw;
+    width: 43vw;
+    position: relative;
+    bottom: 20vh;
 }
 
 .item-link {
@@ -49,14 +53,14 @@ figure {
 }
 
 .proj-image {
-    background-repeat: no-repeat;
+    width: 15vw;
+    height: 20vh;
 }
 
 .double-item-row .proj-image {
     position: relative;
     left: 14vw;
-    right: 14vw;
-    top: 2vh;
+    top: 5vh;
 }
 
 .single-item-row .proj-image {
@@ -72,16 +76,6 @@ figure {
     bottom: 2vh;
 }
 
-.double-item-row .hover-overlay {
-    position: relative;
-    right: 14vw;
-}
-
-.single-item-row .hover-overlay {
-    position: relative;
-    right: 36.4vw;
-    bottom: 6vh;
-}
 .hover-overlay:hover {
     background-color: rgba(0, 0, 0, 0.685);
 }
@@ -97,36 +91,6 @@ figure {
     top: 13vh;
     color: whitesmoke;
     font-family: 'Josefin Slab', serif;
-}
-
-#icebreaker {
-    background-image: url("img/diveIn.png");
-    width: 15vw;
-    height: 35vh;
-}
-
-#span {
-    background-image: url("img/SPAN.png");
-    width: 20vw;
-    height: 40vh;
-}
-
-#celiac {
-    background-image: url("img/Celiac.png");
-    width: 20vw;
-    height: 25vh;
-}
-
-#movieApp {
-    background-image: url("img/movieRate.png");
-    width: 15vw;
-    height: 28vh;
-}
-
-#usexports {
-    background-image: url("img/exports.png");
-    width: 20vw;
-    height: 24vh;
 }
 
 .social-area {
@@ -162,13 +126,53 @@ figure {
     background-color: black;
 }
 
+@media (max-width: 1100px) {
+    .proj-image {
+        height: 10vh;
+    }
+
+    .double-item-row .item-link, .single-item-row .item-link {
+        height: 20vh;
+    }
+
+    .double-item-row .hover-overlay, .single-item-row .hover-overlay {
+        height: 20vh;
+        bottom: 10vh;
+    }
+
+    .hover-overlay h2 {
+        top: 9vh;
+    }
+}
+
 @media (max-width: 1100px) and (min-width: 769px) {
     .social-area {
         left: 40vw;
     }
 
     .projects {
-        margin: 10em 90px 0 90px;
+        margin: 10em 50px 0 50px;
+    }
+
+    .double-item-row .proj-image {
+        left: 15vw;
+    }
+
+    .double-item-row .item-link {
+        width: 49vw;
+    }
+
+    .double-item-row .hover-overlay {
+        bottom: 10vh;
+        width: 45vw;
+    }
+
+    .single-item-row .item-link, .single-item-row .hover-overlay {
+        width: 90vw;
+    }
+
+    .hover-overlay h2 {
+        font-size: 28px;
     }
 }
 
@@ -183,6 +187,22 @@ figure {
 
     .social-area {
         left: 36vw;
+    }
+
+    .double-item-row .item-link {
+        width: 48vw;
+    }
+
+    .double-item-row .hover-overlay {
+        width: 45vw;
+    }
+
+    .single-item-row .item-link, single-item-row .hover-overlay {
+        width: 90vw;
+    }
+
+    .hover-overlay h2 {
+        font-size: 20px;
     }
 }
 
@@ -210,5 +230,25 @@ figure {
         display: flex;
         position: relative;
         left: 28vw;
+    }
+
+    .double-item-row .proj-image {
+        left: 17vw;
+    }
+
+    .double-item-row .item-link {
+        width: 48vw;
+    }
+
+    .double-item-row .hover-overlay {
+        width: 47vw;
+    }
+
+    .single-item-row .item-link, .single-item-row .hover-overlay {
+        width: 94vw;
+    }
+
+    .hover-overlay h2 {
+        font-size: 14px;
     }
 }
