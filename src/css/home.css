@@ -161,3 +161,16 @@ figure {
 .social-area .circle:hover {
     background-color: black;
 }
+
+@media (max-width: 440px) {
+    .social-area .circle {
+        width: 25px;
+        height: 25px;
+    }
+
+    .social-area #social-media {
+        font-size: 15px;
+        position: relative;
+        bottom: 4px;
+    }
+}

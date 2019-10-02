@@ -88,7 +88,7 @@
 }
 
 .skill-list {
-    width: 70vw; 
+    width: 80vw; 
 }
 
 .skill-list ul {
@@ -122,6 +122,14 @@ footer {
     .skill-list {
         width: 88vw;
     }
+
+    .end-container {
+        left: 31%;
+    }
+
+    .social-area {
+        left: 36.5%;
+    }
 }
 
 @media (max-width: 440px) { 
@@ -131,7 +139,7 @@ footer {
 
     .end-container {
         width: 190px;
-        left: 25%;
+        left: 20%;
     }
 
     .container {
@@ -161,6 +169,10 @@ footer {
     .social-area {
         display: flex;
         position: relative;
-        left: 13.5%;
+        left: 20%;
+    }
+
+    .social-area #social-media {
+        padding:10%;
     }
 }
