@@ -116,10 +116,6 @@ footer {
     .end-container {
         left: 36vw;
     }
-
-    .social-area {
-        left: 40vw;
-    }
 }
 
 @media (max-width: 768px) and (min-width: 441px)  {
@@ -134,10 +130,6 @@ footer {
 
     .end-container {
         left: 30vw;
-    }
-
-    .social-area {
-        left: 35vw;
     }
 }
 

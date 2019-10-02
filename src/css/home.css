@@ -162,7 +162,39 @@ figure {
     background-color: black;
 }
 
+@media (max-width: 1100px) and (min-width: 769px) {
+    .social-area {
+        left: 40vw;
+    }
+
+    .projects {
+        margin: 10em 90px 0 90px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 441px)  {
+    .intro h1 {
+        font-size: 24px;
+    }
+
+    .projects {
+        margin: 5em 40px 0 40px;
+    }
+
+    .social-area {
+        left: 36vw;
+    }
+}
+
 @media (max-width: 440px) {
+    .intro h1 {
+        font-size: 18px;
+    }
+
+    .projects {
+        margin: 5em 10px 0 10px;
+    }
+
     .social-area .circle {
         width: 25px;
         height: 25px;
