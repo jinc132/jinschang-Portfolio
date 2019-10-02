@@ -67,12 +67,6 @@
     padding: 2em;
 }
 
-#about-social {
-    position: relative; 
-    left: 42%;
-    width: 215px;
-}
-
 .app-outer {
     align-items: center;
     width: 50vw;
