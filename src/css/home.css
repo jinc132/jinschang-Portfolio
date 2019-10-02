@@ -173,10 +173,10 @@ figure {
         position: relative;
         bottom: 4px;
     }
-    
+
     .social-area {
         display: flex;
         position: relative;
-        left: 25vw;
+        left: 28vw;
     }
 }
