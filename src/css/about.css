@@ -42,7 +42,7 @@
     font-family: 'Unica one', cursive;
     width: 120px;
     position: relative;
-    left: 45%;
+    left: 46%;
     text-align: center;
 }
 
@@ -145,7 +145,7 @@
 
     .email-container {
         width: 90px;
-        left: 33%;
+        left: 30vw;
     }
 
     .email-container a {
