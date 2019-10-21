@@ -13,7 +13,8 @@
 }
 
 .projects {
-    margin: 10em 110px 0 110px;
+    padding: 1em;
+    margin: 10em 75px 0 75px;
     display: block;
     padding-bottom: 5vh;
 }
@@ -96,7 +97,7 @@
 .social-area {
     display: flex;
     position: relative; 
-    left: 43vw;
+    left: 42vw;
     width: 200px;
 }
 
@@ -191,7 +192,7 @@
     }
 
     .social-area {
-        left: 36vw;
+        left: 35vw;
     }
 
     .double-item-row .item-link {
@@ -234,7 +235,7 @@
     .social-area {
         display: flex;
         position: relative;
-        left: 26vw;
+        left: 25vw;
     }
 
     .double-item-row .proj-image {

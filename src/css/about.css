@@ -42,7 +42,7 @@
     font-family: 'Unica one', cursive;
     width: 120px;
     position: relative;
-    left: 46%;
+    left: 45%;
     text-align: center;
 }
 
@@ -105,7 +105,12 @@
     }
 
     .email-container {
-        left: 37.5vw;
+        left: 36.5vw;
+    }
+
+    .jinBio {
+        width: 75vw;
+        margin-left: 11.5%;
     }
 }
 
@@ -124,11 +129,12 @@
     }
 
     .jinBio h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .jinBio p {
-        font-size: 12px;
+        font-size: 10px;
+        left: 0;
     }
 
     .jinBio {
@@ -139,7 +145,7 @@
 
     .email-container {
         width: 90px;
-        left: 30vw;
+        left: 28vw;
     }
 
     .email-container a {
