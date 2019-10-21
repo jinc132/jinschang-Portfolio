@@ -12,7 +12,7 @@ const projectsList = [
     location: 'Lynnwood, WA | August 2019 – October 2019',
     about: 'Designing a web application that displays my portfolio.',
     info: [
-      'Designed and engineered a web application to present my porfolio using React.js, Node.js, Git, and Heroku',
+      'Designed and engineered a web application to present my portfolio using React.js, Node.js, Git, and Heroku',
       'Implemented a word cloud library to create a active word cloud that moves after some time',
       'Utilized JavaScript to assure that adding additional content to the Resume page is flexible and simple'
     ]

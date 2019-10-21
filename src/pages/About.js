@@ -46,7 +46,7 @@ class About extends Component {
                 After college, I worked on developing an interactive web map application for Statewide Poverty Action Network, a nonprofit organization that advocates for
                 public policy.<br /><br /> 
 
-                During my downtime, I have would go hiking, read on my sofa, or a collaborate on fun side projects. I’m experienced in utilizing: 
+                During my downtime, I go hiking, read on my sofa, or collaborate on fun side projects. I’m experienced in utilizing: 
             </p>
             <div className='app-outer'>
               <div className='app-inner'>
