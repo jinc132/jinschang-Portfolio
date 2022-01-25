@@ -12,8 +12,8 @@ class Home extends Component {
 			<div>
 				<div className='intro'>
 					<h1>
-						Hey! I'm Jin, an aspiring Software Engineer, passionate learner, and
-						a major foodie based in Seattle, WA.
+						Hi I'm Jin, a Software Engineer at FinancialForce. I am a passionate
+						learner and a major foodie based in Seattle, WA.
 					</h1>
 				</div>
 				<div className='projects' id='projects'>
